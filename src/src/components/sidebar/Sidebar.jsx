@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 import './sidebar.css'
 
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/hhm-branding.png'
 
 import sidebar_items from '../../assets/JsonData/sidebar_routes.json'
 
