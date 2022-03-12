@@ -1,21 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import reportWebVitals from './reportWebVitals'
 
-import reportWebVitals from './reportWebVitals';
+import { createStore } from 'redux'
 
-import'./assets/boxicons-2.0.7/css/boxicons.min.css'
-
-import'./assets/css/grid.css'
-
-import'./assets/css/index.css'
+import { Provider } from 'react-redux'
 
 
-import Layout from '../src/components/layout/Layout';
+import './assets/boxicons-2.0.7/css/boxicons.min.css'
+import './assets/css/grid.css'
+import './assets/css/theme.css'
+import './assets/css/index.css'
+
+import Layout from './components/layout/Layout'
+
+
+document.title = 'JC Bince Dashboard'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Layout />
-  </React.StrictMode>,
+  
+    <React.StrictMode>
+      <Layout />
+    </React.StrictMode>,
+
   document.getElementById('root')
 );
 
