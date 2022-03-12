@@ -3,7 +3,7 @@ import React, {useRef, useState, useEffect} from 'react'
 import './thememenu.css'
 
 import { useDispatch } from 'react-redux'
-
+//did not use yet
 import ThemeAction from '../../redux/actions/ThemeAction'
 
 const mode_settings = [
