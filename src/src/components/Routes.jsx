@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
 import {
 	BrowserRouter as Router,
-	Switch,
+	
 	Route,
-	Link
+	
   } from "react-router-dom";
 
-import Dashboard from '../pages/Dashboard';
-import Customers from '../pages/Customers';
+import Dashboard from '../pages/Dashboard'
+import Customers from '../pages/Customers'
 
 const Routes = () => {
     return (
@@ -20,4 +20,3 @@ const Routes = () => {
 }
 
 export default Routes
-
