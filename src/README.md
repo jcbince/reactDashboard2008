@@ -1,3 +1,5 @@
+JC bince has adapted this creat reacte app template to turn into his own, while he is still having trouble understanding all this. I have made this from a tutorial. I want to adapt it for my own uses later. I will redo agian this weekend.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

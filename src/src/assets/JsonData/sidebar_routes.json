@@ -5,7 +5,7 @@
         "icon": "bx bx-category-alt"
     },
     {
-        "display_name": "Customers",
+        "display_name": "Clients",
         "route": "/customers",
         "icon": "bx bx-user-pin"
     },
@@ -20,22 +20,22 @@
         "icon": "bx bx-cart"
     },
     {
-        "display_name": "Analytics",
+        "display_name": "Statistics",
         "route": "/analytics",
         "icon": "bx bx-bar-chart-alt"
     },
     {
-        "display_name": "categories",
+        "display_name": "Add Lists",
         "route": "/categories",
         "icon": "bx bx-list-ol"
     },
     {
-        "display_name": "discount",
+        "display_name": "Gifts",
         "route": "/discount",
         "icon": "bx bx-gift"
     },
     {
-        "display_name": "inventory",
+        "display_name": "Shop",
         "route": "/inventory",
         "icon": "bx bx-store-alt"
     },

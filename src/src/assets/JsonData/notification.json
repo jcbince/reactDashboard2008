@@ -1,22 +1,22 @@
 [
     {
         "icon": "bx bx-error",
-        "content": "Curabitur id eros quis nunc suscipit blandit"
+        "content": "Warning You are majoring in messing this up"
     },
     {
         "icon": "bx bx-package",
-        "content": "Duis malesuada justo eu sapien elementum, in semper diam posuere"
+        "content": "Amazon Driver Drop kicked Packages"
     },
     {
         "icon": "bx bx-cart",
-        "content": "Donec at nisi sit amet tortor commodo porttitor pretium a erat"
+        "content": "We know you can do better than this JC"
     },
     {
         "icon": "bx bx-error",
-        "content": "In gravida mauris et nisi"
+        "content": "You have delivered this in error"
     },
     {
         "icon": "bx bx-cart",
-        "content": "Curabitur id eros quis nunc suscipit blandit"
+        "content": "There is more implementation, I just didnt have time to turn it on."
     }
 ]
