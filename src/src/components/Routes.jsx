@@ -1,16 +1,21 @@
 import React from 'react'
 
-import { Route, Switch } from 'react-router-dom'
+import {
+    BrowserRouter as Router,
+
+    Route,
+
+  } from "react-router-dom";
 
 import Dashboard from '../pages/Dashboard'
 import Customers from '../pages/Customers'
 
 const Routes = () => {
     return (
-        <Switch>
+        <Router>
             <Route path='/' exact component={Dashboard}/>
             <Route path='/customers' component={Customers}/>
-        </Switch>
+        </Router>
     )
 }
 

@@ -10,12 +10,12 @@
         "icon": "bx bx-user-pin"
     },
     {
-        "display_name": "Products",
+        "display_name": "Packages",
         "route": "/products",
         "icon": "bx bx-package"
     },
     {
-        "display_name": "Orders",
+        "display_name": "Cart",
         "route": "/orders",
         "icon": "bx bx-cart"
     },
