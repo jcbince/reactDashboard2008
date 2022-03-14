@@ -4,26 +4,27 @@ import { Route, Switch } from 'react-router-dom'
 
 import Dashboard from '../pages/Dashboard'
 import Customers from '../pages/Customers'
-import Products from '../pages/Products'
-
-import Cart from '../pages/Cart'
-import Statistics from '../pages/Statistics'
-import Lists from '../pages/Lists'
-import Shop from '../pages/Shop'
 
 const Routes = () => {
     return (
         <Switch>
             <Route path='/' exact component={Dashboard}/>
             <Route path='/customers' component={Customers}/>
-            <Route path='/products' component={Products}/>
-           
-            <Route path='/cart' component={Cart}/>
-            <Route path='/statistics' component={Statistics}/>
-            <Route path='/lists' component={Lists}/>
-            <Route path='/shop' component={Shop}/>
         </Switch>
     )
 }
 
 export default Routes
+//             <Route path='/' exact elements={Dashboard}/>
+//             <Route path='/customers' elements={Customers}/>
+//             <Route path='/products' elements={Products}/>
+           
+//             <Route path='/cart' elements={Cart}/>
+//             <Route path='/statistics' elements={Statistics}/>
+//             <Route path='/lists' elements={Lists}/>
+//             <Route path='/shop' elements={Shop}/>
+//         </Router>
+//     )
+// }
+
+// export default Routes
